@@ -34,7 +34,7 @@ filter "configurations:Debug"
 runtime "Debug"
 symbols "on"
 optimize "speed"
-flags { "NoRuntimeChecks" }
+runtimechecks "Off"
 
 filter "configurations:Release"
 runtime "Release"
